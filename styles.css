@@ -56,23 +56,6 @@ nav ul li a:hover {
     max-width: 600px;
 }
 
-.typing-effect {
-    border-right: 2px solid #ffffff;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing 4s steps(10, end), blink-caret 0.75s step-end infinite;
-}
-
-@keyframes typing {
-    from { width: 0; }
-    to { width: 12ch; } /* Adjust width to the length of text */
-}
-
-@keyframes blink-caret {
-    from, to { border-color: transparent; }
-    50% { border-color: white; }
-}
-
 /* CTA Button */
 .cta-button {
     display: inline-block;
@@ -86,65 +69,6 @@ nav ul li a:hover {
 }
 
 .cta-button:hover {
-    background-color: #333333;
-}
-
-/* About and Contact Sections */
-section {
-    padding: 60px 20px;
-    text-align: center;
-}
-
-.about {
-    background-color: #222222;
-    padding: 60px 20px;
-}
-
-.contact {
-    background-color: #333333;
-    padding: 60px 20px;
-}
-
-form input, form textarea {
-    display: block;
-    width: calc(100% - 22px);
-    margin: 10px auto;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-}
-
-form button {
-    padding: 10px 20px;
-    background-color: #1e1e1e;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-form button:hover {
-    background-color: #333333;
-}
-
-/* Social Links */
-.social-links {
-    margin-top: 20px;
-}
-
-.social-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #1e1e1e;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 10px;
-    transition: background 0.3s;
-}
-
-.social-button:hover {
     background-color: #333333;
 }
 
