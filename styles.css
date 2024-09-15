@@ -42,46 +42,137 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-/* Hero Section */
-.hero {
+/* Home Section */
+.home {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     background: linear-gradient(135deg, #1e1e1e, #333333);
     text-align: center;
+    padding: 20px;
 }
 
-.hero-content {
-    max-width: 600px;
+.home-content {
+    max-width: 800px; /* Adjusted max width for better content fit */
+    width: 100%;
 }
 
-/* Logo Styling */
-.logo {
-    width: 150px; /* Adjust the size as needed */
+.home-content img.logo {
+    width: 300px; /* Adjust the size as needed */
     margin: 20px auto;
     display: block;
 }
 
-/* CTA Buttons */
-.cta-button {
+.home-content h1 {
+    margin: 20px 0;
+}
+
+.home-content p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.home-content .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #1e1e1e; /* Black background */
-    color: #ffffff; /* White text */
+    margin-top: 10px;
+    background-color: #000000; /* Black background for buttons */
+    color: #ffffff; /* White text color */
     text-decoration: none;
     border-radius: 5px;
-    margin: 10px;
-    transition: background 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.cta-button:hover {
-    background-color: #333333; /* Darker black */
+.home-content .button:hover {
+    background-color: #333333; /* Darker background on hover */
+    color: #ffffff; /* White text color on hover */
 }
 
-.cta-button:active {
-    background-color: #ffffff; /* White background */
-    color: #000000; /* Black text */
+/* About Section */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e1e1e, #333333);
+    text-align: center;
+    padding: 20px;
+}
+
+.about-content {
+    max-width: 800px; /* Adjusted max width for better content fit */
+    width: 100%;
+}
+
+.about-content img.logo {
+    width: 300px; /* Adjust the size as needed */
+    margin: 20px auto;
+    display: block;
+}
+
+.about-content h1 {
+    margin: 20px 0;
+}
+
+.about-content h2 {
+    margin: 20px 0;
+    font-size: 24px; /* Adjust font size if needed */
+}
+
+.about-content p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+/* Contact Section */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e1e1e, #333333);
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-content {
+    max-width: 800px; /* Adjusted max width for better content fit */
+    width: 100%;
+}
+
+.contact-content img.logo {
+    width: 300px; /* Adjust the size as needed */
+    margin: 20px auto;
+    display: block;
+}
+
+.contact-content h1 {
+    margin: 20px 0;
+}
+
+.contact-content p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.contact-content .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #000000; /* Black background for buttons */
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-content .button:hover {
+    background-color: #333333; /* Darker background on hover */
+    color: #ffffff; /* White text color on hover */
 }
 
 /* Footer */
